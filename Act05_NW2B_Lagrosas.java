@@ -49,7 +49,7 @@ public class Act05_NW2B_Lagrosas {
    
     }while (memberscount>0); 
     
-      
+    //display results  
     do{rise --; System.out.println( "\n\n"); 
    System.out.println("Welcome to the club " + fname.poll() + " " +mname.poll() + " "+ lname.poll() + "! " );
    System.out.println( "Your area code and telephone number is (" +acode.poll()+ ") "+ tnum.poll() + "."); 
